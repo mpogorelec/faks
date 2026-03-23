@@ -1,0 +1,344 @@
+set top_net [getTopNet $net]
+set SAVED_WITH_VERSION {2.10.0 made on Mon, 14 Jan 2019 11:20:20 -0400.  VCRevInfo 3154.  Installed on Windows}
+setDefaultCompareMode $net switch_to_matrix
+set x 1255
+set y 18
+set desc {Alternative}
+set name {Alternative}
+set color white
+set iconUU {}
+set iconFont "-*-arial-medium-r-normal-*-30-*-*-*-*-*"
+set winFont "-*-arial-medium-r-normal-*-30-*-*-*-*-*"
+set width 598
+set height 635
+set clusterName {Alternative}
+set clusterCompareWord {}
+makeCluster $net $x $y $name $desc
+clusterChangeColor $net $name $color
+setClusterIconUU $net $name $iconUU
+setClusterIconFont $net $name $iconFont
+setClusterTitleFont $net $name $winFont
+setClusterWinSize $net $name $width $height
+setClusterCompareWord $net $name $clusterCompareWord
+deIconizeCluster $net $name
+set name {Ponudba A (Manj zahtevno delo, nizka placa)}
+set desc {description}
+set x 10
+set y 10
+set color {white}
+set iconUU {}
+set font {-*-arial-medium-r-normal-*-30-*-*-*-*-*}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set name {Ponudba B (zahtevno delo, visoka placa)}
+set desc {description}
+set x 9
+set y 72
+set color {white}
+set iconUU {}
+set font {-*-arial-medium-r-normal-*-30-*-*-*-*-*}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set name {Ponudba C (srednje zahtevno delo, visoka placa, relokacija)}
+set desc {description}
+set x 8
+set y 131
+set color {white}
+set iconUU {}
+set font {-*-arial-medium-r-normal-*-30-*-*-*-*-*}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set x -62
+set y 9
+set desc {Izberi najboljso ponudbo}
+set name {Cilj}
+set color white
+set iconUU {}
+set iconFont "-*-arial-medium-r-normal-*-30-*-*-*-*-*"
+set winFont "-*-arial-medium-r-normal-*-30-*-*-*-*-*"
+set width 453
+set height 489
+set clusterName {Cilj}
+set clusterCompareWord {}
+makeCluster $net $x $y $name $desc
+clusterChangeColor $net $name $color
+setClusterIconUU $net $name $iconUU
+setClusterIconFont $net $name $iconFont
+setClusterTitleFont $net $name $winFont
+setClusterWinSize $net $name $width $height
+setClusterCompareWord $net $name $clusterCompareWord
+deIconizeCluster $net $name
+set name {Izbira najboljse ponudbe}
+set desc {description}
+set x 10
+set y 10
+set color {white}
+set iconUU {}
+set font {-*-arial-medium-r-normal-*-30-*-*-*-*-*}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set x 431
+set y 12
+set desc {Kriteriji za izbiro}
+set name {Kriteriji}
+set color white
+set iconUU {}
+set iconFont "-*-arial-medium-r-normal-*-30-*-*-*-*-*"
+set winFont "-*-arial-medium-r-normal-*-30-*-*-*-*-*"
+set width 774
+set height 609
+set clusterName {Kriteriji}
+set clusterCompareWord {}
+makeCluster $net $x $y $name $desc
+clusterChangeColor $net $name $color
+setClusterIconUU $net $name $iconUU
+setClusterIconFont $net $name $iconFont
+setClusterTitleFont $net $name $winFont
+setClusterWinSize $net $name $width $height
+setClusterCompareWord $net $name $clusterCompareWord
+deIconizeCluster $net $name
+set name {Moznost dela na daljavo}
+set desc {description}
+set x 12
+set y 557
+set color {white}
+set iconUU {}
+set font {-*-arial-medium-r-normal-*-30-*-*-*-*-*}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set name {Moznosti za karierni razvoj}
+set desc {}
+set x 10
+set y 190
+set color {white}
+set iconUU {}
+set font {-*-arial-medium-r-normal-*-30-*-*-*-*-*}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set name {Osebno zadovoljstvo pri delu}
+set desc {description}
+set x 11
+set y 433
+set color {white}
+set iconUU {}
+set font {-*-arial-medium-r-normal-*-30-*-*-*-*-*}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set name {Placa}
+set desc {description}
+set x 10
+set y 10
+set color {white}
+set iconUU {}
+set font {-*-arial-medium-r-normal-*-30-*-*-*-*-*}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set name {Potreba po selitvi}
+set desc {description}
+set x 13
+set y 310
+set color {white}
+set iconUU {}
+set font {-*-arial-medium-r-normal-*-30-*-*-*-*-*}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set name {Ravnovesje med delom in zasebnim zivljenjem}
+set desc {}
+set x 11
+set y 130
+set color {white}
+set iconUU {}
+set font {-*-arial-medium-r-normal-*-30-*-*-*-*-*}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set name {Stopnja stresa}
+set desc {description}
+set x 10
+set y 494
+set color {white}
+set iconUU {}
+set font {-*-arial-medium-r-normal-*-30-*-*-*-*-*}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set name {Varnost zaposlitve}
+set desc {description}
+set x 12
+set y 250
+set color {white}
+set iconUU {}
+set font {-*-arial-medium-r-normal-*-30-*-*-*-*-*}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set name {Zahtevnost dela}
+set desc {}
+set x 11
+set y 70
+set color {white}
+set iconUU {}
+set font {-*-arial-medium-r-normal-*-30-*-*-*-*-*}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set name {Zivljenjski stroski}
+set desc {description}
+set x 12
+set y 372
+set color {white}
+set iconUU {}
+set font {-*-arial-medium-r-normal-*-30-*-*-*-*-*}
+makeNode $net $clusterName $name $desc $x $y
+setNodeIconUU $net $name $iconUU
+setNodeColor $net $name $color
+setNodeFont $net $name $font
+set init {Kriteriji}
+set final {Alternative}
+connectClusters $net $init $final
+set init {Cilj}
+set final {Kriteriji}
+connectClusters $net $init $final
+setNodeCompareWord  $net {Izbira najboljse ponudbe} {Kriteriji} {important}
+setNodeCompareWord  $net {Moznost dela na daljavo} {Alternative} {important}
+setNodeCompareWord  $net {Moznosti za karierni razvoj} {Alternative} {important}
+setNodeCompareWord  $net {Osebno zadovoljstvo pri delu} {Alternative} {important}
+setNodeCompareWord  $net {Placa} {Alternative} {important}
+setNodeCompareWord  $net {Potreba po selitvi} {Alternative} {important}
+setNodeCompareWord  $net {Ravnovesje med delom in zasebnim zivljenjem} {Alternative} {important}
+setNodeCompareWord  $net {Stopnja stresa} {Alternative} {important}
+setNodeCompareWord  $net {Varnost zaposlitve} {Alternative} {important}
+setNodeCompareWord  $net {Zahtevnost dela} {Alternative} {important}
+setNodeCompareWord  $net {Zivljenjski stroski} {Alternative} {important}
+setNetCompareWord $net {important}
+setNetClusterColor $net {white}
+setNetNodeColor $net {white}
+setNetClusterWinFont $net {-*-arial-medium-r-normal-*-30-*-*-*-*-*}
+setNetClusterIconFont $net {-*-arial-medium-r-normal-*-30-*-*-*-*-*}
+setNetNodeFont $net {-*-arial-medium-r-normal-*-30-*-*-*-*-*}
+setFormulaType $net 0
+#Working on net 0
+catch {limitPowerOptions $net 2 0}
+c-network readAllCompares -network $net -source {
+3
+Cilj
+1
+Izbira najboljse ponudbe
+Kriteriji
+10
+Placa
+Zahtevnost dela
+Moznosti za karierni razvoj
+Ravnovesje med delom in zasebnim zivljenjem
+Varnost zaposlitve
+Potreba po selitvi
+Zivljenjski stroski
+Osebno zadovoljstvo pri delu
+Stopnja stresa
+Moznost dela na daljavo
+Alternative
+3
+Ponudba A (Manj zahtevno delo, nizka placa)
+Ponudba B (zahtevno delo, visoka placa)
+Ponudba C (srednje zahtevno delo, visoka placa, relokacija)
+
+3 1,0 0,1 2,2 
+ 0.000000  1.000000  0.000000 
+ 0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000 
+0
+1 1,0 
+
+1
+1 2,0 
+
+2
+0 
+
+0,0,1
+10 9,0 2,1 7,2 0,3 5,4 3,5 8,6 4,7 1,8 6,9 
+ 1.090909  3.000000  0.461538  3.000000  0.923077  1.500000  1.714286  1.333333  2.000000 
+ 2.750000  0.423077  2.750000  0.846154  1.375000  1.571429  1.222222  1.833333 
+ 0.153846  1.000000  0.307692  0.500000  0.571429  0.444444  0.666667 
+ 6.500000  2.000000  3.250000  3.714286  2.888889  4.333333 
+ 0.307692  0.500000  0.571429  0.444444  0.666667 
+ 1.625000  1.857143  1.444444  2.166667 
+ 1.142857  0.888889  1.333333 
+ 0.777778  1.166667 
+ 1.500000 
+
+1,0,2
+3 0,0 1,1 2,2 
+ 0.142857  0.200000 
+ 2.000000 
+
+1,1,2
+3 0,0 1,1 2,2 
+ 4.000000  2.000000 
+ 0.500000 
+
+1,2,2
+3 0,0 1,1 2,2 
+ 0.333333  0.250000 
+ 0.750019 
+
+1,3,2
+3 0,0 1,1 2,2 
+ 3.000000  2.000000 
+ 0.602410 
+
+1,4,2
+3 0,0 1,1 2,2 
+ 0.500000  0.500000 
+ 1.000000 
+
+1,5,2
+3 0,0 1,1 2,2 
+ 1.000000  5.000000 
+ 5.000000 
+
+1,6,2
+3 0,0 1,1 2,2 
+ 1.000000  0.500000 
+ 0.500000 
+
+1,7,2
+3 0,0 1,1 2,2 
+ 2.000000  2.000000 
+ 1.000000 
+
+1,8,2
+3 0,0 1,1 2,2 
+ 3.000000  2.000000 
+ 0.598802 
+
+1,9,2
+3 0,0 1,1 2,2 
+ 3.000000  2.000000 
+ 0.666667 
+
+}
+set FORMAT 1
+recreateNetInsideFrameOnly $net
