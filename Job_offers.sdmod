@@ -1,0 +1,16 @@
+set top_net [getTopNet $net]
+set SAVED_WITH_VERSION {2.10.0 made on Mon, 14 Jan 2019 11:20:20 -0400.  VCRevInfo 3154.  Installed on Windows}
+makeNetFormulaic $net
+setNetFormula $net {{} {}}
+setDefaultCompareMode $net switch_to_question
+setNetCompareWord $net {important}
+setNetClusterColor $net {white}
+setNetNodeColor $net {white}
+setNetClusterWinFont $net {myDefaultFontCluster}
+setNetClusterIconFont $net {myDefaultFontCluster}
+setNetNodeFont $net {myDefaultFontNode}
+setFormulaType $net 3
+#Working on net 0
+catch {limitPowerOptions $net 2 0}
+set FORMAT 1
+recreateNetInsideFrameOnly $net
